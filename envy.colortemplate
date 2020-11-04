@@ -14,15 +14,17 @@ Color: background #eeeeee ~
 Color: black #000000 ~
 Color: blue #005fd7 ~
 Color: green #005f00 ~
-Color: red #cc3e28 ~
+Color: red #af0000 ~
 Color: grey #777777 ~
 Color: dgrey #555555 ~
-Color: lgrey1 #d0d0d0 ~
-Color: lgrey2 #bfbcaf ~
-Color: lgrey3 #aaaaaa ~
-Color: yellow #b58900 ~
+Color: lgrey1 #dadada ~
+Color: lgrey2 #c6c6c6 ~
+Color: lgrey3 #b2b2b2 ~
+Color: yellow #d78700 ~
+Color: lyellow #ffd787 ~
 Color: orange #a55000 ~
-Color: purple #5c21a5 ~
+Color: purple #5f00ff ~
+Color: lpurple #ffafff ~
 Color: white #ffffff ~
 Color: cyan #158c86 ~
 
@@ -35,7 +37,7 @@ ColorColumn none lgrey1
 Comment grey none
 Conceal none none
 Constant black none
-Cursor none white
+Cursor none lgrey1
 CursorLineNR grey white bold
 Directory purple none
 ErrorMsg red none bold
@@ -45,7 +47,7 @@ Include black none bold
 Keyword black none bold
 LineNr grey none
 Macro orange none
-MatchParen none yellow bold
+MatchParen none lyellow bold
 MoreMsg black none
 NonText lgrey1 none
 Normal black background
@@ -56,14 +58,14 @@ PmenuSel black lgrey1 bold
 PreProc black none
 Question black none
 Regexp orange none
-Search yellow none bold,underline
+Search black lyellow bold
 Special black none
-SpellBad red none bold,underline
+SpellBad red none underline
 SpellCap purple none underline
 SpellLocal green none underline
 SpellRare purple none underline
-StatusLine black lgrey1
-StatusLineNC dgrey none underline
+StatusLine black lgrey3 bold
+StatusLineNC black lgrey2
 String green none
 TabLine dgrey lgrey2
 TabLineFill black lgrey2
@@ -72,12 +74,13 @@ Title black none bold
 Todo grey none bold
 VertSplit lgrey2 none
 WarningMsg orange none bold
+Folded dgrey lgrey1
+Visual white green
 
 Boolean -> Keyword
 Character -> String
 CursorLine -> Cursor
 Error -> ErrorMsg
-Folded -> Comment
 Label -> Special
 PmenuThumb -> PmenuSel
 PreCondit -> Macro
@@ -86,7 +89,6 @@ SpecialKey -> Number
 Statement -> Keyword
 StorageClass -> Keyword
 Type -> Keyword
-Visual -> Cursor
 WildMenu -> PmenuSel
 
 ; These highlight groups can be used for statuslines, for example when
@@ -94,6 +96,10 @@ WildMenu -> PmenuSel
 WhiteOnOrange white orange
 WhiteOnYellow white yellow
 WhiteOnRed white red
+
+; Clever-F/Sneak
+CleverFDefaultLabel black lpurple bold
+Sneak -> CleverFDefaultLabel
 
 ; ALE
 ALEError red none bold
