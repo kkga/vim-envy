@@ -67,7 +67,7 @@ SpellRare purple none underline
 StatusLine black lgrey3 bold
 StatusLineNC black lgrey2
 String green none
-TabLine dgrey lgrey2
+TabLine black lgrey2
 TabLineFill black lgrey2
 TabLineSel black background bold
 Title black none bold
