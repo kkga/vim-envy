@@ -72,7 +72,7 @@ TabLine black lgrey2
 TabLineFill black lgrey2
 TabLineSel black background bold
 Title black none bold
-Todo grey none bold
+Todo yellow none bold
 VertSplit lgrey2 lgrey2
 Folded dgrey lgrey1
 Visual white cyan
