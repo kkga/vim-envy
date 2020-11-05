@@ -1,5 +1,5 @@
-A work-in-progress light theme for VIM with comfortable contrast.
+A work-in-progress, almost no-color light theme for VIM with comfortable contrast.
 
-Intended for both day and night with moderate screen brightness.
+Intended for both day and night usage with moderate screen brightness.
 
 ![](screenshot.png)
