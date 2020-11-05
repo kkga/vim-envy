@@ -15,6 +15,7 @@ Color: black #000000 ~
 Color: blue #005fd7 ~
 Color: green #005f00 ~
 Color: red #af0000 ~
+Color: lred #ffaf87 ~
 Color: grey #777777 ~
 Color: dgrey #555555 ~
 Color: lgrey1 #e4e4e4 ~
@@ -22,7 +23,8 @@ Color: lgrey2 #c6c6c6 ~
 Color: lgrey3 #b2b2b2 ~
 Color: yellow #af8700 ~
 Color: lyellow #ffd787 ~
-Color: orange #a55000 ~
+Color: orange #d75f00 ~
+Color: lorange #ffd7af ~
 Color: purple #5f00ff ~
 Color: lpurple #ffafff ~
 Color: white #ffffff ~
@@ -41,7 +43,6 @@ Cursor none lgrey1
 LineNr grey none
 CursorLineNR grey none bold
 Directory blue none bold
-ErrorMsg red none bold
 FoldColumn grey background
 Identifier black none
 Include black none bold
@@ -73,9 +74,11 @@ TabLineSel black background bold
 Title black none bold
 Todo grey none bold
 VertSplit lgrey2 lgrey2
-WarningMsg orange none bold
 Folded dgrey lgrey1
 Visual white cyan
+ErrorMsg red none bold
+WarningMsg orange none bold
+FloatWindow black white
 
 Boolean -> Keyword
 Character -> String
@@ -102,10 +105,29 @@ CleverFDefaultLabel black lpurple bold
 Sneak -> CleverFDefaultLabel
 
 ; ALE
-ALEError red none bold
-ALEErrorSign red none bold
-ALEWarning orange none bold
-ALEWarningSign orange none bold
+ALEErrorSign -> ErrorMsg
+ALEError -> ErrorMsg
+ALEWarningSign -> WarningMsg
+ALEWarning -> WarningMsg
+
+; COC
+CocFloating -> FloatWindow
+CocErrorSign -> ALEErrorSign
+CocErrorHighlight -> ALEError
+CocErrorFloat -> ErrorMsg
+CocWarningSign -> ALEWarningSign
+CocWarningHighlight -> ALEWarning
+CocWarningFloat -> WarningMsg
+;
+; CocInfoSign Normal
+; CocInfoHighlight InformationHighlight
+; CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+;
+; CocHintSign WarningHighlight
+; CocHintHighlight WarningHighlight
+; CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
+;
+; CocHighlightText ReferenceHighlight
 
 ; CSS
 cssClassName -> Keyword
@@ -145,7 +167,7 @@ htmlArg -> Identifier
 
 ; HTML
 htmlTag black none bold
-htmlLink -> Directory
+htmlLink -> String
 htmlScriptTag -> htmlTag
 htmlSpecialTagName -> htmlTag
 htmlTagName -> htmlTag
