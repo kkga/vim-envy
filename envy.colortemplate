@@ -17,7 +17,7 @@ Color: green #005f00 ~
 Color: red #af0000 ~
 Color: grey #777777 ~
 Color: dgrey #555555 ~
-Color: lgrey1 #dadada ~
+Color: lgrey1 #e4e4e4 ~
 Color: lgrey2 #c6c6c6 ~
 Color: lgrey3 #b2b2b2 ~
 Color: yellow #af8700 ~
@@ -26,7 +26,7 @@ Color: orange #a55000 ~
 Color: purple #5f00ff ~
 Color: lpurple #ffafff ~
 Color: white #ffffff ~
-Color: cyan #158c86 ~
+Color: cyan #0087af ~
 
 ; Terminal colors
 Term Colors: black red green yellow blue purple cyan lgrey3
@@ -38,23 +38,23 @@ Comment grey none
 Conceal none none
 Constant black none
 Cursor none lgrey1
-CursorLineNR grey white bold
+LineNr grey none
+CursorLineNR grey none bold
 Directory blue none bold
 ErrorMsg red none bold
-FoldColumn black background
+FoldColumn grey background
 Identifier black none
 Include black none bold
 Keyword black none bold
-LineNr grey none
 Macro orange none
 MatchParen none lyellow bold
 MoreMsg black none
-NonText lgrey1 none
+NonText lgrey2 none
 Normal black background
 Number blue none
 Operator black none
 Pmenu black white
-PmenuSel black lgrey1 bold
+PmenuSel black lgrey2 bold
 PreProc black none
 Question black none
 Regexp orange none
@@ -72,10 +72,10 @@ TabLineFill black lgrey2
 TabLineSel black background bold
 Title black none bold
 Todo grey none bold
-VertSplit lgrey2 none
+VertSplit lgrey2 lgrey2
 WarningMsg orange none bold
 Folded dgrey lgrey1
-Visual white green
+Visual white cyan
 
 Boolean -> Keyword
 Character -> String
