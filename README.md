@@ -2,6 +2,9 @@ A work-in-progress, almost no-color light colorscheme for Vim with comfortable c
 
 Intended for both day and night usage with moderate screen brightness.
 
+A "fake-busy" screenshot to give you an idea of some highlights in action.
+Colors are used sparingly and mostly for UI-related higlights (search, errors, etc).
+
 ![](screenshot.png)
 
 ---
