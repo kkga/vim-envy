@@ -11,26 +11,26 @@ Background: light
 
 ; Colors
 Color: background #eeeeee ~
-Color: black #000000 ~
-Color: blue #005fd7 ~
-Color: green #005f00 ~
-Color: red #af0000 ~
-Color: lred #ffaf87 ~
-Color: grey #777777 ~
-Color: dgrey #555555 ~
-Color: lgrey1 #e4e4e4 ~
-Color: lgrey2 #c6c6c6 ~
-Color: lgrey3 #b2b2b2 ~
-Color: yellow #d75f00 ~
-Color: lyellow #ffd787 ~
-Color: purple #5f00ff ~
-Color: lpurple #ffafff ~
-Color: white #ffffff ~
-Color: cyan #0087af ~
+Color: black      #000000 ~
+Color: brblack    #585858 ~
+Color: blue       #005fd7 ~
+Color: green      #005f00 ~
+Color: red        #af0000 ~
+Color: lred       #ffaf87 ~
+Color: yellow     #d75f00 ~
+Color: lyellow    #ffd787 ~
+Color: purple     #5f00ff ~
+Color: lpurple    #ffafff ~
+Color: cyan       #0087af ~
+Color: white      #ffffff ~
+Color: grey       #6c6c6c ~
+Color: lgrey1     #e4e4e4 ~
+Color: lgrey2     #c6c6c6 ~
+Color: lgrey3     #b2b2b2 ~
 
 ; Terminal colors
 Term Colors: black red green yellow blue purple cyan lgrey3
-Term Colors: dgrey red green yellow blue purple cyan lgrey3
+Term Colors: brblack red green yellow blue purple cyan lgrey3
 
 ; Generic highlight groups
 ColorColumn none lgrey1
@@ -72,7 +72,7 @@ TabLineSel black background bold
 Title black none bold
 Todo yellow none bold
 VertSplit lgrey2 lgrey2
-Folded dgrey lgrey1
+Folded grey lgrey1
 Visual white cyan
 ErrorMsg red none bold
 WarningMsg yellow none bold
