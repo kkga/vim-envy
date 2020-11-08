@@ -37,7 +37,8 @@ ColorColumn none lgrey1
 Comment grey none
 Conceal none none
 Constant black none
-Cursor none lgrey1
+Cursor none none reverse
+CursorLine none lgrey1
 LineNr grey none
 CursorLineNR grey none bold
 Directory blue none bold
@@ -78,9 +79,9 @@ ErrorMsg red none bold
 WarningMsg yellow none bold
 FloatWindow black white
 
+lCursor -> Cursor
 Boolean -> Keyword
 Character -> String
-CursorLine -> Cursor
 Error -> ErrorMsg
 Label -> Special
 PmenuThumb -> PmenuSel
