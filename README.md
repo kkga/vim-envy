@@ -5,7 +5,15 @@ Intended for both day and night usage with moderate screen brightness.
 A "fake-busy" screenshot gives an idea of some highlights in action.
 Colors are used sparingly and mostly for UI-related highlights (search, errors, etc).
 
-![](screenshot.png)
+![](screenshots/generic.png)
+
+#### Rust
+
+![](screenshots/rust.png)
+
+#### Markdown
+
+![](screenshots/markdown.png)
 
 ---
 
