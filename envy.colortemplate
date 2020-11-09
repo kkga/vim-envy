@@ -14,13 +14,14 @@ Color: background #eeeeee ~
 Color: black      #000000 ~
 Color: brblack    #585858 ~
 Color: blue       #005fd7 ~
+Color: lblue      #afd7ff ~
 Color: green      #005f00 ~
 Color: red        #af0000 ~
 Color: lred       #ffaf87 ~
 Color: yellow     #d75f00 ~
 Color: lyellow    #ffd787 ~
 Color: purple     #5f00ff ~
-Color: lpurple    #ffafff ~
+Color: pink       #ffafff ~
 Color: cyan       #0087af ~
 Color: white      #ffffff ~
 Color: grey       #6c6c6c ~
@@ -46,7 +47,7 @@ FoldColumn grey background
 Identifier black none
 Include black none bold
 Keyword black none bold
-Macro yellow none
+Macro purple none
 MatchParen none lyellow bold
 MoreMsg black none
 NonText lgrey2 none
@@ -74,7 +75,7 @@ Title black none bold
 Todo yellow none bold
 VertSplit lgrey2 lgrey2
 Folded grey lgrey1
-Visual white cyan
+Visual none lblue
 ErrorMsg red none bold
 WarningMsg yellow none bold
 FloatWindow black white
@@ -99,7 +100,7 @@ WhiteOnYellow white yellow
 WhiteOnRed white red
 
 ; Clever-F/Sneak
-CleverFDefaultLabel black lpurple bold
+CleverFDefaultLabel black pink bold
 Sneak -> CleverFDefaultLabel
 
 ; ALE
