@@ -76,9 +76,13 @@ Todo yellow none bold
 VertSplit lgrey2 lgrey2
 Folded grey lgrey1
 Visual none lblue
-ErrorMsg red none bold
-WarningMsg yellow none bold
 FloatWindow black white
+ErrorSign white red bold
+WarningSign yellow none bold
+ErrorHighlight red none bold underline
+WarningHighlight yellow none bold underline
+ErrorMsg red none
+WarningMsg black none
 
 lCursor -> Cursor
 Boolean -> Keyword
@@ -104,18 +108,18 @@ CleverFDefaultLabel black pink bold
 Sneak -> CleverFDefaultLabel
 
 ; ALE
-ALEErrorSign -> ErrorMsg
+ALEErrorSign -> ErrorSign
 ALEError -> ErrorMsg
-ALEWarningSign -> WarningMsg
+ALEWarningSign -> WarningSign
 ALEWarning -> WarningMsg
 
 ; COC
 CocFloating -> FloatWindow
-CocErrorSign -> ALEErrorSign
-CocErrorHighlight -> ALEError
+CocErrorSign -> ErrorSign
+CocErrorHighlight -> ErrorHighlight
 CocErrorFloat -> ErrorMsg
-CocWarningSign -> ALEWarningSign
-CocWarningHighlight -> ALEWarning
+CocWarningSign -> WarningSign
+CocWarningHighlight -> WarningHighlight
 CocWarningFloat -> WarningMsg
 ;
 ; CocInfoSign Normal
