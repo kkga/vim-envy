@@ -44,4 +44,4 @@ All colors are from the [256 Xterm color palette](https://jonasjacek.github.io/c
 | Color     | Foreground | Background |
 |:----------|:-----------|:-----------|
 | Text      | `#000000`  | `#EEEEEE`  |
-| Selection | `#FFFFFF`  | `#0087AF`  |
+| Selection | `#000000`  | `#AFD7FF`  |
