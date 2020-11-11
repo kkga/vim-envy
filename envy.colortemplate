@@ -17,7 +17,7 @@ Color: blue       #005fd7 ~
 Color: lblue      #afd7ff ~
 Color: green      #005f00 ~
 Color: red        #af0000 ~
-Color: lred       #ffaf87 ~
+Color: lred       #ffafaf ~
 Color: yellow     #d75f00 ~
 Color: lyellow    #ffd787 ~
 Color: purple     #5f00ff ~
@@ -61,10 +61,10 @@ Question black none
 Regexp yellow none
 Search black lyellow bold
 Special black none
-SpellBad red none underline
-SpellCap purple none underline
-SpellLocal green none underline
-SpellRare purple none underline
+SpellBad red none undercurl
+SpellCap purple none undercurl
+SpellLocal green none undercurl
+SpellRare purple none undercurl
 StatusLine black lgrey3 bold
 StatusLineNC black lgrey2
 String green none
@@ -72,15 +72,15 @@ TabLine black lgrey2
 TabLineFill black lgrey2
 TabLineSel black background bold
 Title black none bold
-Todo yellow none bold
+Todo cyan none bold
 VertSplit lgrey2 lgrey2
 Folded grey lgrey1
 Visual none lblue
 FloatWindow black white
-ErrorSign white red bold
+ErrorSign red none bold
 WarningSign yellow none bold
-ErrorHighlight red none bold underline
-WarningHighlight yellow none bold underline
+ErrorHighlight black lred bold
+WarningHighlight yellow none bold undercurl
 ErrorMsg red none
 WarningMsg black none
 
