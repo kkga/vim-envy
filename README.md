@@ -1,5 +1,8 @@
-A work-in-progress, almost no-color light colorscheme for Vim with comfortable contrast.
+# Envy
 
+<small>Work in progress: some colors and highlights might change, although not significantly.</small>
+
+Light color scheme for Vim with comfortable contrast.
 Intended for both day and night usage with moderate screen brightness.
 
 A "fake-busy" screenshot gives an idea of some highlights in action.
@@ -7,11 +10,15 @@ Colors are used sparingly and mostly for UI-related highlights (search, errors, 
 
 ![](screenshots/generic.png)
 
-#### Rust
+---
+
+### More screenshots
+
+##### Rust
 
 ![](screenshots/rust.png)
 
-#### Markdown
+##### Markdown
 
 ![](screenshots/markdown.png)
 
