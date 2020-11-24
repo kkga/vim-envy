@@ -2,7 +2,7 @@ Full name:   Envy
 Short name:  envy
 Author:      Gadzhi Kharkharov <me@kkga.me>
 Website:     https://github.com/kkga/vim-envy
-Description: A light theme with comfortable contrast. 
+Description: A light theme with comfortable contrast.
 License:     MPL 2.0
 
 Neovim:     yes
@@ -82,7 +82,7 @@ WarningSign yellow none bold
 ErrorHighlight black lred bold
 WarningHighlight yellow none bold undercurl
 ErrorMsg red none
-WarningMsg black none
+WarningMsg yellow none
 
 lCursor -> Cursor
 Boolean -> Keyword
@@ -112,6 +112,11 @@ ALEErrorSign -> ErrorSign
 ALEError -> ErrorMsg
 ALEWarningSign -> WarningSign
 ALEWarning -> WarningMsg
+ALEVirtualTextError black lred
+; ALEVirtualTextWarning xxx links to ALEWarning
+; ALEVirtualTextStyleError xxx links to ALEVirtualTextError
+; ALEVirtualTextStyleWarning xxx links to ALEVirtualTextWarning
+; ALEVirtualTextInfo xxx links to ALEVirtualTextWarning
 
 ; COC
 CocFloating -> FloatWindow
