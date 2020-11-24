@@ -109,9 +109,9 @@ Sneak -> CleverFDefaultLabel
 
 ; ALE
 ALEErrorSign -> ErrorSign
-ALEError -> ErrorMsg
+ALEError -> ErrorHighlight
 ALEWarningSign -> WarningSign
-ALEWarning -> WarningMsg
+ALEWarning -> WarningHighlight
 ALEVirtualTextError black lred
 ; ALEVirtualTextWarning xxx links to ALEWarning
 ; ALEVirtualTextStyleError xxx links to ALEVirtualTextError
