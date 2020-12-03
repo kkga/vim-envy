@@ -79,10 +79,10 @@ Visual none lblue
 FloatWindow black white
 ErrorSign red none bold
 WarningSign yellow none bold
-ErrorHighlight black lred bold
-WarningHighlight yellow none bold undercurl
+ErrorHighlight black lred
+WarningHighlight yellow none undercurl
 ErrorMsg red none
-WarningMsg yellow none
+WarningMsg white yellow
 
 lCursor -> Cursor
 Boolean -> Keyword
@@ -125,7 +125,7 @@ CocErrorHighlight -> ErrorHighlight
 CocErrorFloat -> ErrorMsg
 CocWarningSign -> WarningSign
 CocWarningHighlight -> WarningHighlight
-CocWarningFloat -> WarningMsg
+CocWarningFloat black none
 ;
 ; CocInfoSign Normal
 ; CocInfoHighlight InformationHighlight
