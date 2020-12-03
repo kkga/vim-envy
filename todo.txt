@@ -1,0 +1,2 @@
+2020-12-03 remove bold from ale highlights
+2020-12-03 improve visibility of yellow warning messages
