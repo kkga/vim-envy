@@ -2,7 +2,7 @@ Full name:   Envy
 Short name:  envy
 Author:      Gadzhi Kharkharov <me@kkga.me>
 Website:     https://github.com/kkga/vim-envy
-Description: A light theme with comfortable contrast.
+Description: A light color scheme with comfortable contrast.
 License:     MPL 2.0
 
 Neovim:     yes
@@ -16,11 +16,11 @@ Color: brblack    #585858 ~
 Color: blue       #005fd7 ~
 Color: lblue      #afd7ff ~
 Color: green      #005f00 ~
-Color: red        #af0000 ~
+Color: red        #d70000 ~
 Color: lred       #ffafaf ~
 Color: yellow     #d75f00 ~
 Color: lyellow    #ffd787 ~
-Color: purple     #5f00ff ~
+Color: purple     #5f00d7 ~
 Color: pink       #ffafff ~
 Color: cyan       #0087af ~
 Color: white      #ffffff ~
@@ -40,15 +40,15 @@ Conceal none none
 Constant black none
 Cursor none none reverse
 CursorLine none lgrey1
-LineNr grey none
-CursorLineNR grey none bold
+LineNr grey lgrey1
+CursorLineNR grey lgrey1 bold
 Directory blue none bold
-FoldColumn grey background
+FoldColumn grey lgrey1
 Identifier black none
 Include black none bold
 Keyword black none bold
 Macro purple none
-MatchParen none lyellow bold
+MatchParen none lblue bold
 MoreMsg black none
 NonText lgrey2 none
 Normal black background
@@ -59,7 +59,7 @@ PmenuSel black lgrey2 bold
 PreProc black none
 Question black none
 Regexp yellow none
-Search black lyellow bold
+Search black lblue bold
 Special black none
 SpellBad red none undercurl
 SpellCap purple none undercurl
@@ -74,14 +74,14 @@ TabLineSel black background bold
 Title black none bold
 Todo cyan none bold
 VertSplit lgrey2 lgrey2
-Folded grey lgrey1
+Folded none lgrey1
 Visual none lblue
 FloatWindow black white
-ErrorSign red none bold
-WarningSign yellow none bold
-ErrorHighlight black lred
-WarningHighlight yellow none undercurl
-ErrorMsg red none
+ErrorSign red lgrey1 bold
+WarningSign yellow lgrey1 bold
+ErrorHighlight none lred
+WarningHighlight none lyellow
+ErrorMsg white red
 WarningMsg white yellow
 
 lCursor -> Cursor
@@ -112,8 +112,8 @@ ALEErrorSign -> ErrorSign
 ALEError -> ErrorHighlight
 ALEWarningSign -> WarningSign
 ALEWarning -> WarningHighlight
-ALEVirtualTextError black lred
-; ALEVirtualTextWarning xxx links to ALEWarning
+ALEVirtualTextError -> ALEError
+ALEVirtualTextWarning -> ALEWarning
 ; ALEVirtualTextStyleError xxx links to ALEVirtualTextError
 ; ALEVirtualTextStyleWarning xxx links to ALEVirtualTextWarning
 ; ALEVirtualTextInfo xxx links to ALEVirtualTextWarning

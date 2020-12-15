@@ -37,11 +37,11 @@ All colors are from the [256 Xterm color palette](https://jonasjacek.github.io/c
 | Color   | Normal    | Bright    |
 |:--------|:----------|:----------|
 | Black   | `#000000` | `#585858` |
-| Red     | `#AF0000` | `#AF0000` |
+| Red     | `#D70000` | `#D70000` |
 | Green   | `#005F00` | `#005F00` |
 | Yellow  | `#D75F00` | `#D75F00` |
 | Blue    | `#005FD7` | `#005FD7` |
-| Purple  | `#5F00FF` | `#5F00FF` |
+| Purple  | `#5F00D7` | `#5F00D7` |
 | Cyan    | `#0087AF` | `#0087AF` |
 | White   | `#B2B2B2` | `#B2B2B2` |
 
