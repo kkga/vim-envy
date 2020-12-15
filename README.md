@@ -8,7 +8,7 @@ Intended for both day and night usage with moderate screen brightness.
 A "fake-busy" screenshot gives an idea of some highlights in action.
 Colors are used sparingly and mostly for UI-related highlights (search, errors, etc).
 
-![](screenshots/generic.png)
+![](screenshots/envy.png)
 
 ---
 
