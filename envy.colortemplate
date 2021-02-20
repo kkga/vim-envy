@@ -136,6 +136,9 @@ CocWarningFloat black none
 ;
 ; CocHighlightText ReferenceHighlight
 
+; vim-lsp
+lspReference -> Search
+
 ; CSS
 cssClassName -> Keyword
 cssColor -> Number
