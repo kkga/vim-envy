@@ -138,6 +138,8 @@ CocWarningFloat -> WarningFloatWindow
 CocHintSign -> HintSign
 CocHintHighlight -> HintHighlight
 CocHintFloat -> HintFloatWindow
+CocListMode -> StatusLine
+CocListPath -> StatusLine
 ;
 ; CocInfoSign Normal
 ; CocInfoHighlight InformationHighlight
