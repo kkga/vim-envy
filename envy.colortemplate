@@ -22,6 +22,7 @@ Color: lyellow    #ffd787 ~
 Color: purple     #5f00d7 ~
 Color: pink       #ffafff ~
 Color: cyan       #0087af ~
+Color: lcyan      #afd7af ~
 Color: white      #ffffff ~
 Color: grey       #6c6c6c ~
 Color: lgrey1     #e4e4e4 ~
@@ -75,13 +76,22 @@ Todo cyan none bold
 VertSplit lgrey2 lgrey2
 Folded none lgrey1
 Visual none lblue
+
 FloatWindow black white
-ErrorSign red lgrey1 bold
-WarningSign yellow lgrey1 bold
+ErrorFloatWindow red white 
+WarningFloatWindow yellow white
+HintFloatWindow cyan white
+
+ErrorSign red lred bold
+WarningSign yellow lyellow bold
+HintSign cyan lcyan bold
+
 ErrorHighlight none lred
 WarningHighlight none lyellow
+HintHighlight none lcyan
 ErrorMsg white red
 WarningMsg white yellow
+HintMsg white cyan
 
 lCursor -> Cursor
 Boolean -> Keyword
@@ -121,10 +131,13 @@ ALEVirtualTextWarning -> ALEWarning
 CocFloating -> FloatWindow
 CocErrorSign -> ErrorSign
 CocErrorHighlight -> ErrorHighlight
-CocErrorFloat -> ErrorMsg
+CocErrorFloat -> ErrorFloatWindow
 CocWarningSign -> WarningSign
 CocWarningHighlight -> WarningHighlight
-CocWarningFloat black none
+CocWarningFloat -> WarningFloatWindow
+CocHintSign -> HintSign
+CocHintHighlight -> HintHighlight
+CocHintFloat -> HintFloatWindow
 ;
 ; CocInfoSign Normal
 ; CocInfoHighlight InformationHighlight
