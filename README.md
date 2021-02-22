@@ -24,7 +24,7 @@ Colors are used sparingly and mostly for UI-related highlights (search, errors, 
 
 ### Requirements
 
-Use either `set termguicolors` or `set notermguicolors`: the colorscheme should look practically the same, as all colors are from the [256 Xterm color palette](https://jonasjacek.github.io/colors/).
+Use either `set termguicolors` or `set notermguicolors`: the color scheme should look practically the same, as all colors are from the [256 Xterm color palette](https://jonasjacek.github.io/colors/).
 
 16-color terminals probably work, but not tested. Colors for terminal emulators provided further below.
 
