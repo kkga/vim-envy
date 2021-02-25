@@ -116,6 +116,12 @@ WhiteOnRed white red
 CleverFDefaultLabel black pink bold
 Sneak -> CleverFDefaultLabel
 
+; Telescope
+TelescopeBorder -> Comment
+TelescopePromptBorder -> Comment
+TelescopeResultsBorder -> Comment
+TelescopePreviewBorder -> Comment
+
 ; ALE
 ALEErrorSign -> ErrorSign
 ALEError -> ErrorHighlight
