@@ -144,13 +144,13 @@ CocWarningFloat -> WarningFloatWindow
 CocHintSign -> HintSign
 CocHintHighlight -> HintHighlight
 CocHintFloat -> HintFloatWindow
+CocInfoSign -> CocHintSign
+CocInfoHighlight -> CocHintHighlight
+CocInfoFloat -> CocHintFloat
+
 CocListMode -> StatusLine
 CocListPath -> StatusLine
-;
-; CocInfoSign Normal
-; CocInfoHighlight InformationHighlight
-; CocInfoFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-;
+
 ; CocHintSign WarningHighlight
 ; CocHintHighlight WarningHighlight
 ; CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
