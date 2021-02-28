@@ -89,6 +89,11 @@ HintSign cyan lcyan bold
 ErrorHighlight none lred
 WarningHighlight none lyellow
 HintHighlight none lcyan
+
+ErrorUnderline red none undercurl bold
+WarningUnderline yellow none undercurl bold
+HintUnderline cyan none undercurl bold
+
 ErrorMsg white red
 WarningMsg white yellow
 HintMsg white cyan
@@ -151,14 +156,22 @@ CocInfoFloat -> CocHintFloat
 CocListMode -> StatusLine
 CocListPath -> StatusLine
 
-; CocHintSign WarningHighlight
-; CocHintHighlight WarningHighlight
-; CocHintFloat term=NONE cterm=NONE ctermfg=16 gui=NONE guifg=#000000
-;
-; CocHighlightText ReferenceHighlight
-
 ; vim-lsp
 lspReference -> Search
+
+; nvim-lsp
+LspDiagnosticsVirtualTextError -> ErrorHighlight
+LspDiagnosticsVirtualTextWarning -> WarningHighlight
+LspDiagnosticsVirtualTextInformation -> HintHighlight
+LspDiagnosticsVirtualTextHint -> HintHighlight
+LspDiagnosticsSignError -> ErrorSign
+LspDiagnosticsSignWarning -> WarningSign
+LspDiagnosticsSignInformation -> HintSign
+LspDiagnosticsSignHint -> HintSign
+LspDiagnosticsUnderlineError -> ErrorUnderline
+LspDiagnosticsUnderlineWarning -> WarningUnderline
+LspDiagnosticsUnderlineInformation -> HintUnderline
+LspDiagnosticsUnderlineHint -> HintUnderline
 
 ; CSS
 cssClassName -> Keyword
