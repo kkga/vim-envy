@@ -194,6 +194,15 @@ GitSignsChange -> DiffChange
 GitSignsDelete -> DiffDelete
 GitSignsChangeDelete -> DiffDelete
 
+; Neogit
+NeogitDiffAdd green none
+NeogitDiffDelete red none
+NeogitDiffAddHighlight -> DiffAdd
+NeogitDiffDeleteHighlight -> DiffDelete
+NeogitDiffContextHighlight none lgrey1
+NeogitHunkHeader grey lgrey1 bold
+NeogitHunkHeaderHighlight none lgrey2 bold
+
 ; Dot
 dotKeyChar -> Operator
 
