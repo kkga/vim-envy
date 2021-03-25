@@ -98,6 +98,12 @@ ErrorMsg white red
 WarningMsg white yellow
 HintMsg white cyan
 
+DiffAdd green lgrey1
+DiffChange yellow lgrey1
+DiffDelete red lgrey1
+DiffText -> Number
+
+
 lCursor -> Cursor
 Boolean -> Keyword
 Character -> String
@@ -111,6 +117,7 @@ Statement -> Keyword
 StorageClass -> Keyword
 Type -> Keyword
 WildMenu -> PmenuSel
+
 
 ; These highlight groups can be used for statuslines, for example when
 ; displaying ALE warnings and errors.
@@ -181,15 +188,11 @@ cssImportant -> Keyword
 cssProp -> Identifier
 cssTagName -> Keyword
 
-; Diffs
-DiffAdd -> diffAdded
-DiffChange -> Notice
-DiffDelete -> diffRemoved
-DiffText -> diffLine
-diffAdded -> String
-diffFile -> Keyword
-diffLine -> Number
-diffRemoved red none
+; gitsigns
+GitSignsAdd -> DiffAdd
+GitSignsChange -> DiffChange
+GitSignsDelete -> DiffDelete
+GitSignsChangeDelete -> DiffDelete
 
 ; Dot
 dotKeyChar -> Operator
