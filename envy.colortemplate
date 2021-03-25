@@ -82,9 +82,9 @@ ErrorFloatWindow red white
 WarningFloatWindow yellow white
 HintFloatWindow cyan white
 
-ErrorSign red lred bold
-WarningSign yellow lyellow bold
-HintSign cyan lcyan bold
+ErrorSign   black lred bold
+WarningSign black lyellow bold
+HintSign    black lcyan bold
 
 ErrorHighlight none lred
 WarningHighlight none lyellow
@@ -102,7 +102,6 @@ DiffAdd green lgrey1
 DiffChange yellow lgrey1
 DiffDelete red lgrey1
 DiffText -> Number
-
 
 lCursor -> Cursor
 Boolean -> Keyword
@@ -123,10 +122,14 @@ WildMenu -> PmenuSel
 ; displaying ALE warnings and errors.
 WhiteOnYellow white yellow
 WhiteOnRed white red
+WhiteOnPurple white purple
 
-; Clever-F/Sneak
-CleverFDefaultLabel black pink bold
-Sneak -> CleverFDefaultLabel
+; Clever-F/Sneak/Hop
+CleverFDefaultLabel -> WhiteOnRed
+Sneak -> WhiteOnRed
+HopNextKey -> WhiteOnRed
+HopNextKey1 -> WhiteOnRed
+HopNextKey2 -> WhiteOnYellow
 
 ; Telescope
 TelescopeBorder -> Comment
